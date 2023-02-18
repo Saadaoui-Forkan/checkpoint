@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=360, initial-scale=1">
+	<title>checkpoint DOM</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+	<header>
+		  <h2>KICK<sup>shop</sup></h2>
+		  <nav class="nav">
+		  	<a class="h-nav" href="#">Home</a>
+		  	<a class="h-nav" href="#products">Products</a>
+		  	<a class="h-nav" href="#section">
+		  		<i class="fas fa-shopping-cart" ></i>
+		  	</a>
+		  </nav>
+	</header>
+
+
+	<main class="main-container">
+
+		<section class="section">
+			<h2 class="text-center">Products</h2>
+			<div class="products" id="products">
+				
+				<div class="product">
+					<img class="product__image" src="img1.jpg" alt="Gant">
+					<h2 class="product__name">Gant</h2>
+					<h3 class="product__price">25.00</h3>
+					<i class="far fa-heart" id="like1"></i>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img2.jpg" alt="Pattes d'ours">
+					<h2 class="product__name">Pattes d'ours</h2>
+					<h3 class="product__price">15.00</h3>
+					<i class="far fa-heart" id="like2"></i>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img3.jpg" alt="Protege">
+					<h2 class="product__name">Protege TBA</h2>
+					<h3 class="product__price">40.00</h3>
+					<i class="far fa-heart" id="like3"></i>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img4.jpg" alt="Box Gant">
+					<h2 class="product__name">Box Gant</h2>
+					<h3 class="product__price">10.50</h3>
+					<i class="far fa-heart" id="like4"></i>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img5.jpg" alt="Casque">
+					<h2 class="product__name">Casque</h2>
+					<h3 class="product__price">40.00</h3>
+					<i class="far fa-heart" id="like5"></i>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img6.jpg" alt="Budo">
+					<h2 class="product__name">Budo</h2>
+					<h3 class="product__price">20.00</h3>
+					<i class="far fa-heart" id="like6"></i>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="section">
+			<h2 class="text-center">Cart</h2>
+			<div class="cart"></div>
+		</section>
+
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>

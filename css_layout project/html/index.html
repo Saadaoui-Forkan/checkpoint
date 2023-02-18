@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chekpoint CSS Layout</title>
+    <link rel="stylesheet" href="../css/new-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5e401af906.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"> <img src="../img/logo-1.PNG" alt="logoo">
+            </a>   
+            
+        </div>
+        <nav class="main-nav">
+            <div class="hamburgr">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle"/>
+            </div>
+			<ul class="main-menu">
+				<li><a href="/about-us"class="is-current">About us</a></li>
+				<li><a href="/career" >Career</a></li>
+				<li class="dropdown">
+					<a >
+						Departments
+					</a>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="/department?dep=marketing">Marketing &amp; PR</a></li>
+							<li><a href="/department?dep=customer">Customer Success & Sales</a></li>
+							<li><a href="/department?dep=it">IT, Product, Data</a></li>
+							<li><a href="/department?dep=finance">Finance &amp; Administration</a></li>
+							<li><a href="/department?dep=hr">HR &amp; more</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+    </header>
+    <!-- __________________________________________________________________________________________________ -->
+    <section class="section-1">
+        <img src="../img/logo-2.png" alt="logo-2">
+        <h1>Making the healthcare experience more human</h1>
+    </section>
+    <!-- ______________________________________________________________________________________________________ -->
+    <section class="section-2">
+        <p>
+            We want patients to find the perfect doctor
+             and book an appointment in the most easy way. 
+             The patient journey should be enjoyable, and that's why
+              we are always next to them: to help them find the best possible care. Anytime, anywhere.
+        </p>
+        <p>
+            We also help doctors to better manage 
+            their practice and build their online reputation.
+             With our integrated end-to-end solution, doctors are able 
+             not only to improve their online presence, but also to devote 
+             their time to what really matters: their patients.
+        </p>
+
+    </section>
+    <!-- __________________________________________________________________________________________________________ -->
+    <section class="section-3">
+        <div class="patients">
+            <h1><i class="fas fa-users"></i></h1>
+            <h2>For patients</h2>
+            <p>Find a doctor, book a visit and solve any health-related doubt</p>
+        
+            <select data-id="domain-switcher">
+                <option>Choose country</option>
+                                                    <option value="http://www.doctoraliar.com">Argentina</option>
+                                                    <option value="http://www.doctoralia.com.br">Brazil</option>
+                                                    <option value="http://www.doctoralia.cl">Chile</option>
+                                                    <option value="http://www.doctoralia.co">Colombia</option>
+                                                    <option value="http://www.znamylekar.cz">Czech</option>
+                                                    <option value="http://www.miodottore.it">Italy</option>
+                                                    <option value="http://www.doctoralia.com.mx">Mexico</option>
+                                                    <option value="http://www.doctoralia.pe">Peru</option>
+                                                    <option value="http://www.znanylekarz.pl">Poland</option>
+                                                    <option value="http://www.doctoralia.com.pt">Portugal</option>
+                                                    <option value="http://www.doctoralia.es">Spain</option>
+                                                    <option value="http://www.doktortakvimi.com">Turkey</option>
+            </select>
+            </div>
+        </div>
+        <div class="doctors">
+            <h1><i class="fas fa-user-nurse"></i></h1>
+            <h2>For doctors</h2>
+            <p>Save time managing visits and cut no-shows by half</p>
+            <select data-id="domain-switcher">
+                <option>Choose country</option>
+                                                    <option value="https://academy.doctoraliar.com">Argentina</option>
+                                                    <option value="https://academy.doctoralia.com.br">Brazil</option>
+                                                    <option value="https://academy.doctoralia.cl">Chile</option>
+                                                    <option value="https://academy.doctoralia.co">Colombia</option>
+                                                    <option value="https://lekar.znamylekar.cz">Czech</option>
+                                                    <option value="https://phone.docplanner.de/#/">Germany</option>
+                                                    <option value="https://dottori.miodottore.it">Italy</option>
+                                                    <option value="https://academy.doctoralia.com.mx">Mexico</option>
+                                                    <option value="https://academy.doctoralia.pe">Peru</option>
+                                                    <option value="https://lekarz.znanylekarz.pl">Poland</option>
+                                                    <option value="https://academy.doctoralia.es">Spain</option>
+                                                    <option value="https://uzman.doktortakvimi.com">Turkey</option>
+                                            </select>
+        </div>
+        <div class="clinics">
+            <h1><i class="fas fa-hospital"></i></h1>
+            <h2>For clinics</h2>
+            <p>Deliver an exceptional patient experience in your clinic</p>
+            <select data-id="domain-switcher">
+                <option>2 to 20 specialists</option>
+                                                    <option value="http://clinicas.doctoralia.com.br/software-de-gestao-para-clinicas-e-centros">Brazil</option>
+                                                    <option value="http://lekar.znamylekar.cz/pro-zarizeni">Czech</option>
+                                                    <option value="http://centrimedici.miodottore.it/saas/funzionalita">Italy</option>
+                                                    <option value="http://clinicas.doctoralia.com.mx/software-gestion-clinicas">Mexico</option>
+                                                    <option value="http://placowka.znanylekarz.pl/system-od-znanylekarz">Poland</option>
+                                                    <option value="http://clinicas.doctoralia.es/software-gestion-clinicas">Spain</option>
+                                                    <option value="http://kurumsal.doktortakvimi.com">Turkey</option>
+                                            </select><br>
+                                            <select data-id="domain-switcher">
+                                                <option>More than 20 specialists</option>
+                                                                                    <option value="http://clinicas.doctoralia.com.br/tuotempo">Brazil</option>
+                                                                                    <option value="http://centrimedici.miodottore.it/marketplace/funzionalita">Italy</option>
+                                                                                    <option value="http://clinicas.doctoralia.com.mx/tuotempo">Mexico</option>
+                                                                                    <option value="http://placowka.znanylekarz.pl/poznaj-tuotempo">Poland</option>
+                                                                                    <option value="http://clinicas.doctoralia.es/tuotempo">Spain</option>
+                                                                            </select>                                
+        </div>
+    </section>
+    <section class="section-4">
+        <div class="titre">
+            <h1>
+                We are a global company<br>
+                with local culture
+            </h1>
+        </div>
+        <div class="lien-img">
+            <a href="#"><img src="../img/div-cap-1.PNG" ></a>
+            <a href="#"><img src="../img/div-cap-2.PNG" ></a>
+            <a href="#"><img src="../img/div-cap-3.PNG" ></a>
+            <a href="#"><img src="../img/div-cap-4.PNG" ></a>
+            <a href="#"><img src="../img/div-cap-5.PNG" ></a>
+            <a href="#"><img src="../img/div-cap-6.PNG" ></a>
+            <a href="#"><img src="../img/div-cap-7.PNG" ></a>
+            <a href="#"><img src="../img/div-cap-8.PNG" ></a>
+        </div>
+    </section>
+    <!-- _________________________________________________________________________
+    ______________________________________________________________________________ -->
+    <section class="section-5">
+        <div class="intro">
+            <h1>The world's biggest<br>
+                healthcare platform</h1>
+            <p>We work from 7 offices all over the world, bringing Docplanner Group to life in a dozen countries.</p>
+        </div>
+        <div class="info">
+            <div class="col-1">
+                <div class="drap">
+                   <h1><i class="fa fa-flag" aria-hidden="true"></i></h1>
+                   <h2>Leader in 11 countries</h2>
+                   <p>Poland, Turkey, Spain, Italy, Czech Republic, Mexico, Colombia, Brazil, Argentina, Peru and Chile</p>
+                </div>
+                <div class="user">
+                    <h1> <i class="fas fa-user-friends"></i> </h1>
+                   <h2>61.9 mln unique patients</h2>
+                   <p>visit our websites each month</p>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <div class="calender">
+                   <h1> <i class="fas fa-calendar-check"></i> </h1>
+                   <h2>4.8 million appointments</h2>
+                   <p>booked last month</p>
+                </div>
+                <div class="doc">
+                    <h1><i class="fas fa-people-arrows"></i> </h1>
+                    <h2>92.5k active doctors</h2>
+                    <p>trust our solutions</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- <img src="../img/logo-2.png" > -->
+    </section>
+    <!-- __________________________________________________________________________________
+    ____________________________________________________________________________________ -->
+
+    <section class="section-6">
+            <h1>Improve the lives of millions.<br> Change yours forever</h1>
+            <p>More than 1400 team mates share our same vision, 
+                goals and passion. With offices in Warsaw, Barcelona, 
+                Istanbul, Rome, Bologna, Mexico City and Curitiba, 
+                our search for great talent never stops.
+            </p>
+    </section>
+    <section class="section-7">
+        <a href="#">
+            <div class="main">
+                <img src="../img/warsaw.png">
+                <div class="main-inf">
+                    <h1>warsaw</h1>
+                    <button>SEE OPENING</button>
+                </div>        
+            </div>
+        </a>
+        <a href="#">    
+            <div class="main">
+                <img src="../img/barcelona.png" >
+                <div class="main-inf">
+                    <h1>barcelona</h1>
+                    <button>SEE OPENING</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">    
+            <div class="main">
+                <img src="../img/istanbul.png" >
+                <div class="main-inf">
+                    <h1>istanbul</h1>
+                    <button>SEE OPENING</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="main">
+                <img src="../img/rome.png" >
+                <div class="main-inf">
+                    <h1>rome</h1>
+                    <button>SEE OPENING</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="main">
+                <img src="../img/bologna.png" >
+                <div class="main-inf">
+                    <h1>bologna</h1>
+                    <button>SEE OPENING</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="main">
+                <img src="../img/curitiba.png" >
+                <div class="main-inf">
+                    <h1>curitiba</h1>
+                    <button>SEE OPENING</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="main">
+                <img src="../img/mexico.png" >
+                <div class="main-inf">
+                    <h1>mexico-city</h1>
+                    <button>SEE OPENING</button>
+                </div>
+            </div>
+        </a>
+    </section>
+    <!-- _____________________________________________________________________________
+    __________________________________________________________________________________ -->
+    <section class="section-8">
+        <h1>Sounds interesting? Join us now!</h1>
+        <button>SEE ALL CURRENT OPENINGS</button>
+    </section>
+    <footer>
+        <hr>
+        <p>We are leaders in 11 countries:
+             <a href="#"> Poland</a>, <a href="#">Turkey</a>, <a href="">Spain</a>, <a href="#">Italy</a>, <a href="#">Czech Republic</a>, 
+                <a href="#">Mexico</a>, <a href="#">Colombia</a>, <a href="#">Brazil</a>, <a href="#">Argentina</a>, <a href="#">Peru</a> and <a href="#">Chile</a>
+        </p>
+        <p>This site uses cookies to deliver services
+             in accordance with this Privacy Policy. You can specify 
+             the conditions for storing or accessing cookies on your browser.<br>  
+            www.docplanner.com © 2021
+        </p>
+    </footer>
+</body>
+</html>

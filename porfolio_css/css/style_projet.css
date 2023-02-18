@@ -1,0 +1,33 @@
+h1{
+		font-size: 30px;
+	font-family: 'Eczar', serif;
+	color: rgb(0 255 255);
+	text-align: center;
+	line-height: 20px;
+}
+p{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+.liens img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	padding: 60px;
+}
+.liens{
+	text-align: center;
+	margin-top: 00px;
+
+}
+.video video{
+	width: 200;
+	height: 150px;
+	padding: 60px;
+
+}
+.video{
+	text-align: center;
+	margin-top: 00px;
+}	
